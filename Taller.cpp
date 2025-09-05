@@ -111,7 +111,7 @@ void ordenarInsertionDescendente(int a[], int n) {
     for (i = 1; i < n; i++) {
         key = a[i];
         j = i - 1;
-        // Mover los elementos menores que key hacia adelante
+        
         while (j >= 0 && a[j] < key) {
             a[j + 1] = a[j];
             j--;
@@ -124,5 +124,6 @@ void ordenarInsertionDescendente(int a[], int n) {
     printf("\nResultado final (descendente): ");
     mostrarArray(a, n);
 }
+
 
 
