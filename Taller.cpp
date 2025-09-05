@@ -57,7 +57,7 @@ int main() {
     return 0;
 }
 
-// 1. Llenar arreglo validando que sean enteros positivos
+
 void llenarArray(int a[], int n) {
     int valor;
     for (int i = 0; i < n; i++) {
@@ -72,7 +72,7 @@ void llenarArray(int a[], int n) {
     }
 }
 
-// Mostrar arreglo
+
 void mostrarArray(int a[], int n) {
     printf("[ ");
     for (int i = 0; i < n; i++) {
@@ -81,7 +81,7 @@ void mostrarArray(int a[], int n) {
     printf("]\n");
 }
 
-// 2. Selection Sort Ascendente (con pasos)
+
 void ordenarSelectionAscendente(int a[], int n) {
     int i, j, min, temp;
     printf("\nProceso Selection Sort Ascendente:\n");
@@ -104,7 +104,7 @@ void ordenarSelectionAscendente(int a[], int n) {
     mostrarArray(a, n);
 }
 
-// 3. Insertion Sort Descendente (con pasos)
+
 void ordenarInsertionDescendente(int a[], int n) {
     int i, j, key;
     printf("\nProceso Insertion Sort Descendente:\n");
@@ -124,3 +124,4 @@ void ordenarInsertionDescendente(int a[], int n) {
     printf("\nResultado final (descendente): ");
     mostrarArray(a, n);
 }
+
