@@ -10,7 +10,7 @@ int main() {
     int a[10];
     int opcion;
     int n = 10;
-    int datosIngresados = 0; // Bandera para validar si ya se llenó el arreglo
+    int datosIngresados = 0; 
 
     do {
         printf("\n===== MENU PRINCIPAL =====\n");
@@ -124,4 +124,5 @@ void ordenarInsertionDescendente(int a[], int n) {
     printf("\nResultado final (descendente): ");
     mostrarArray(a, n);
 }
+
 
